@@ -1,0 +1,70 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "20232_maua_tti203_g1_rest_filmes",
+    "dateExported": "2023-09-25T15:16:43.088Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "57992acc-26b0-40d5-b480-64baa112e9dc",
+            "colId": "5944cbe7-140f-4966-9601-7a60bf1bbd18",
+            "containerId": "",
+            "name": "Obter filmes",
+            "url": "localhost:8000/filmes/",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-09-25T14:49:22.131Z",
+            "modified": "2023-09-25T14:49:22.131Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "77f93509-ab53-4b8c-9675-8e47e89694d6",
+            "colId": "5944cbe7-140f-4966-9601-7a60bf1bbd18",
+            "containerId": "",
+            "name": "Salvar filme",
+            "url": "localhost:8000/filmes/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-09-25T14:54:14.703Z",
+            "modified": "2023-09-25T14:59:38.611Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"titulo\": \"{{#string}}\",\n  \"descricao\": \"{{#string}}\",\n  \"diretor\": \"{{#name}}\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d2570ce8-236e-4196-b2cf-7a4d0c154cc8",
+            "colId": "5944cbe7-140f-4966-9601-7a60bf1bbd18",
+            "containerId": "",
+            "name": "Obter filme",
+            "url": "localhost:8000/filmes/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-09-25T15:10:21.993Z",
+            "modified": "2023-09-25T15:15:11.488Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "b34c2153-0907-4102-8bf7-f8e272879aa9",
+            "colId": "5944cbe7-140f-4966-9601-7a60bf1bbd18",
+            "containerId": "",
+            "name": "Remover filme",
+            "url": "localhost:8000/filmes/6",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-09-25T15:15:27.378Z",
+            "modified": "2023-09-25T15:15:47.343Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

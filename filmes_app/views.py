@@ -14,3 +14,10 @@ from .serializers import FilmeSerializer
 class FilmeListCreate(generics.ListCreateAPIView):
   queryset = Filme.objects.all()
   serializer_class = FilmeSerializer
+
+
+#DELETE /filmes/1
+#GET /filmes/1
+class FilmeRetrieveDestroy(generics.RetrieveDestroyAPIView):
+  queryset = Filme.objects.all()
+  serializer_class = FilmeSerializer
