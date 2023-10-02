@@ -1,0 +1,2 @@
+from .genero_serializer import GeneroSerializer
+from .filme_serializer import FilmeSerializer
